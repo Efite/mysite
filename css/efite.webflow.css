@@ -90,6 +90,8 @@ p {
 .button.full-width {
   display: block;
   width: 100%;
+  border-radius: 8px;
+  background-color: #404047;
 }
 
 .brand-text {
@@ -116,13 +118,14 @@ p {
 
 .call-to-action-section {
   padding: 44px 40px;
-  background-color: #cf404d;
+  background-color: #404047;
   color: #fff;
 }
 
 .call-to-action-heading {
   margin-top: 3px;
   margin-bottom: 0px;
+  color: #cf404d;
   font-weight: 400;
 }
 
@@ -304,7 +307,7 @@ p {
 }
 
 .nav-link.w--current {
-  color: #cf404d;
+  color: #bec3c7;
 }
 
 .nav-menu {
@@ -353,6 +356,15 @@ p {
 
 .paragraph-form {
   margin-bottom: 0px;
+}
+
+.container {
+  padding-right: 183px;
+  padding-left: 181px;
+}
+
+.form {
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 991px) {
